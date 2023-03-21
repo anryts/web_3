@@ -1,0 +1,21 @@
+.footer-div {
+    background-color: #40134c;
+    color: #ffffff;
+    text-align: center;
+    height: 60px;
+}
+
+.footer-links {
+    text-align: right;
+    margin-top: -15px;
+    margin-right: 15px;
+
+}
+
+.footer-links a {
+    color: #ffffff;
+}
+
+.footer-links a:hover {
+    color: #007bff;
+}

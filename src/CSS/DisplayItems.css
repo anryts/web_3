@@ -1,0 +1,30 @@
+.container {
+    max-width: 1200px;
+    margin:  auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px; /* negative margin to remove space between items */
+}
+
+.row > div {
+    flex-basis: calc(20% - 20px); /* maximum 5 items per row on big screens */
+    margin: 10px; /* add margin to create space between items */
+}
+
+/* Define media queries for different screen sizes */
+
+@media (max-width: 991px) {
+    .row > div {
+        flex-basis: calc(33.33% - 20px); /* maximum 3 items per row on mid screens */
+    }
+}
+
+@media (max-width: 767px) {
+    .row > div {
+        flex-basis: calc(100% - 20px); /* one item per row on smartphones */
+    }
+}
+
