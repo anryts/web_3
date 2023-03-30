@@ -5,9 +5,8 @@ class Footer extends Component {
     render() {
         return (
             <div className="footer-div">
-                <h1>Footer</h1>
                 <div className="footer-links">
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/anryts/web_3" target="_blank" rel="noopener noreferrer">
                         <h4>To check codebase you can go to my GitHub</h4>
                     </a>
                 </div>

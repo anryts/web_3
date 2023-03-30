@@ -82,12 +82,16 @@ const DisplayItems = () => {
         <div className="container">
             <div className="row">
                 {items.map((item, index) => (
-                    <div>
-                        <Item name={item.name} description={item.description} price={item.price} image={item.image} />
+                    <div key={index} className="col">
+                        <Item
+                            name={item.name}
+                            description={item.description}
+                            price={item.price}
+                            image={item.image}
+                        />
                     </div>
                 ))}
             </div>
-
         </div>
     );
 };
