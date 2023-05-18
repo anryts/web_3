@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### 'TODO'
+
+Пропоную базовий функціонал, що дозволить оцінити ваші здібності:
+Робите сторінку з переліком будь-яких товарів чи послуг, біля кожної карточки товару кнопка 
+"Додати до кошика", по натисненню товар додається до масиву айтемів кошика. 
+гори виводите іконку кошика на лічильни кількості товарів у ній. По кліку на кошик - вспливає div
+з абсолютним позиціонуванням по центру і там виводяться рядками додані товари.
+Біля кожного товару іконка - хрестик для видалення товару з корзини.

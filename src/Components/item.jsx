@@ -1,19 +1,19 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './item.css';
 
-class Item extends Component {
-    render() {
-        const {name, description, price, image} = this.props;
-        return (
-            <div className="item-container">
-                <div className="image-container">
-                </div>
-                <h1>{name}</h1>
-                <p>{description}</p>
-                <p>{price}</p>
+const Item = ({item, handleClick }) => {
+    const {title, author, price, img } = item;
+    return (
+        <div className="item-container">
+            <div className="image-container">
+                <img src={img} alt=""/>
             </div>
-        );
-    }
-}
+            <h1>{title}</h1>
+            <p>{author}</p>
+            <p>{price} UAH</p>
+            <button onClick={() =>handleClick(item)}>Add to basket</button>
+        </div>
+    );
+};
 
 export default Item;

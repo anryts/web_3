@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
 import './CSS/MainPage.css';
+import data from "./Components/data";
+import Item from "./Components/item";
 import DisplayItems from "./Components/DisplayItems";
 
-class MainPage extends Component {
-    render() {
+const MainPage = ({handleClick}) => {
         return (
             <div className="parent">
-                <DisplayItems />
+                <DisplayItems handleClick={handleClick}/>
             </div>
         );
-    }
 }
 
 export default MainPage;
