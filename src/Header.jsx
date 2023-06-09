@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './CSS/Header.css';
-import Backet from "./Components/Backet";
+import Backet from "./Components/Cart";
 
 const Header = ({cart, setCart, handleChange}) => {
         return (

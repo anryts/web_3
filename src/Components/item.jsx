@@ -1,5 +1,5 @@
 import React from 'react';
-import './item.css';
+import '../CSS/item.css';
 
 const Item = ({item, handleClick }) => {
     const {title, author, price, img } = item;

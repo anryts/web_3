@@ -3,11 +3,10 @@
     min-width: 250px;
     min-height: 250px;
     align-content: center;
-    margin: 15px;
     align-items: center;
     text-align: center;
     font-size: 1.5em;
-
+    padding-top: 100px;
 }
 
 
@@ -16,6 +15,7 @@
         transform: scale(1.1);
         transition: transform 0.5s ease;
     }
+
 }
 
 .image-container {
@@ -25,4 +25,9 @@
     justify-content: center;
     align-items: center;
 }
+@media screen  and (max-width: 700px) {
+    .image-container {
+        scale: 0.8;
 
+    }
+}

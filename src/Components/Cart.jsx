@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from 'react';
-import './Backet.css';
-import data from "./data";
+import '../CSS/Cart.css';
 
-const Basket = ({cart, setCart, handleChange}) => {
+
+const Cart = ({cart, setCart, handleChange}) => {
 
     const [isBasketOpen, setIsBasketOpen] = useState(false);
     const [price, setPrice] = useState(0);
@@ -72,4 +72,4 @@ const Basket = ({cart, setCart, handleChange}) => {
     );
 };
 
-export default Basket;
+export default Cart;
